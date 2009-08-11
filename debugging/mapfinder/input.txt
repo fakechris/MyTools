@@ -1,0 +1,81 @@
+>	ntdll.dll!_ExpInterlockedPopEntrySListEnd@0()  + 0x8 bytes	
+ 	ntdll.dll!_RtlpAllocateFromHeapLookaside@4()  + 0x1d bytes	
+ 	ntdll.dll!_RtlAllocateHeap@12()  + 0xd7 bytes	
+ 	scs_transpro_dll.dll!006ea7e4() 	
+ 	[Frames below may be incorrect and/or missing, no symbols loaded for scs_transpro_dll.dll]	
+ 	scs_transpro_dll.dll!006ea6db() 	
+ 	scs_transpro_dll.dll!006ea6c8() 	
+ 	scs_transpro_dll.dll!0077ff60() 	
+ 	scs_transpro_dll.dll!0075a46b() 	
+ 	scs_transpro_dll.dll!00758fd8() 	
+ 	scs_transpro_dll.dll!00757ae6() 	
+ 	scs_transpro_dll.dll!0074830c() 	
+ 	scs_transpro_dll.dll!0076ebd9() 	
+ 	scs_transpro_dll.dll!00748c19() 	
+ 	scs_transpro_dll.dll!00751a76() 	
+ 	scs_transpro_dll.dll!0074ed4c() 	
+ 	scs_transpro_dll.dll!00758631() 	
+ 	scs_transpro_dll.dll!0073496c() 	
+ 	scs_transpro_dll.dll!00734598() 	
+
+
+	Server.exe	I:\SCSNT\bin_server\Server.exe	N/A	N/A	Binary was not built with debug information.		1	1.00.0.48	20/06/1992 06:22	00400000-006A0000	[5808] Server.exe: Native	
+	ntdll.dll	C:\WINDOWS\system32\ntdll.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\ntdll.pdb\36515FB5D04345E491F672FA2E2878C02\ntdll.pdb	2	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	7C920000-7C9B4000	[5808] Server.exe: Native	
+	kernel32.dll	C:\WINDOWS\system32\kernel32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\kernel32.pdb\CE65FAF896A046629C9EC86F626344302\kernel32.pdb	3	5.1.2600.3119 (xpsp_sp2_gdr.070416-1301)	16/04/2007 23:54	7C800000-7C91D000	[5808] Server.exe: Native	
+	user32.dll	C:\WINDOWS\system32\user32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\user32.pdb\92D15332471547DCA0D75061B8B6CDA42\user32.pdb	4	5.1.2600.3099 (xpsp_sp2_gdr.070308-0222)	08/03/2007 23:37	77D10000-77D9F000	[5808] Server.exe: Native	
+	gdi32.dll	C:\WINDOWS\system32\gdi32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\gdi32.pdb\CA5BB3941A9845EA8DF5376CE1C842F82\gdi32.pdb	5	5.1.2600.3316 (xpsp_sp2_gdr.080219-1316)	20/02/2008 14:50	77EF0000-77F37000	[5808] Server.exe: Native	
+	advapi32.dll	C:\WINDOWS\system32\advapi32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\advapi32.pdb\455D6C5F184D45BBB5C5F30F829751142\advapi32.pdb	6	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:37	77DA0000-77E49000	[5808] Server.exe: Native	
+	rpcrt4.dll	C:\WINDOWS\system32\rpcrt4.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\rpcrt4.pdb\2D7278066B8B4F0AAA1AB3E4F8CEA0DA2\rpcrt4.pdb	7	5.1.2600.3173 (xpsp_sp2_gdr.070709-0051)	09/07/2007 21:09	77E50000-77EE2000	[5808] Server.exe: Native	
+	secur32.dll	C:\WINDOWS\system32\secur32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\secur32.pdb\85DD72BF4CAD42EFB989699A8B082F1D2\secur32.pdb	8	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	77FC0000-77FD1000	[5808] Server.exe: Native	
+	oleaut32.dll	C:\WINDOWS\system32\oleaut32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\oleaut32.pdb\659B514A88A24FB6ADB4F29A9BB066E42\oleaut32.pdb	9	5.01.2600.3266	05/12/2007 02:40	770F0000-7717B000	[5808] Server.exe: Native	
+	msvcrt.dll	C:\WINDOWS\system32\msvcrt.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\msvcrt.pdb\A678F3C30DED426B839032B996987E381\msvcrt.pdb	10	7.0.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:40	77BE0000-77C38000	[5808] Server.exe: Native	
+	ole32.dll	C:\WINDOWS\system32\ole32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\ole32.pdb\683B65B246F4418796D2EE6D4C55EB112\ole32.pdb	11	5.1.2600.2726 (xpsp_sp2_gdr.050725-1528)	26/07/2005 12:39	76990000-76ACD000	[5808] Server.exe: Native	
+	version.dll	C:\WINDOWS\system32\version.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\version.pdb\180A90C40384463E82DDC45B2C8AB76E2\version.pdb	12	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	77BD0000-77BD8000	[5808] Server.exe: Native	
+	comctl32.dll	C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03\comctl32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\MicrosoftWindowsCommon-Controls-6.0.2600.2982-comctl32.pdb\C0A72EE9578847AAB7770CF02FFED0941\MicrosoftWindowsCommon-Controls-6.0.2600.2982-comctl32.pdb	13	6.0 (xpsp.060825-0040)	25/08/2006 23:49	77180000-77283000	[5808] Server.exe: Native	
+	shlwapi.dll	C:\WINDOWS\system32\shlwapi.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\shlwapi.pdb\8D3DAC0E823F40898A311DA6914CE6F52\shlwapi.pdb	14	6.00.2900.3314 (xpsp_sp2_gdr.080215-1241)	16/02/2008 16:59	77F40000-77FB6000	[5808] Server.exe: Native	
+	shell32.dll	C:\WINDOWS\system32\shell32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\shell32.pdb\FF5FC32191C14278B4A63D4AEA95ABE52\shell32.pdb	15	6.00.2900.3241 (xpsp_sp2_gdr.071025-1248)	26/10/2007 00:54	7D590000-7DD83000	[5808] Server.exe: Native	
+	comdlg32.dll	C:\WINDOWS\system32\comdlg32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\comdlg32.pdb\4FCBEAD63D7345998C1F92D8DBB0DC272\comdlg32.pdb	16	6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	76320000-76367000	[5808] Server.exe: Native	
+	sensapi.dll	C:\WINDOWS\system32\sensapi.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\sensapi.pdb\EA5A940052D941D7A1C77521A8AEEFD62\sensapi.pdb	17	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	72240000-72245000	[5808] Server.exe: Native	
+	ExportDataUIFacade.dll	I:\SCSNT\bin_server\ExportDataUIFacade.dll	N/A	N/A	Binary was not built with debug information.		18	1, 0, 0, 1	21/07/2008 14:35	10000000-1004D000	[5808] Server.exe: Native	
+	scs_transpro_dll.dll	I:\SCSNT\bin_server\scs_transpro_dll.dll	N/A	N/A	Binary was not built with debug information.		19	1, 0, 0, 1	01/09/2008 10:05	006A0000-007E4000*	[5808] Server.exe: Native	
+	ws2_32.dll	C:\WINDOWS\system32\ws2_32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\ws2_32.pdb\07AC08831007408D919E0CCF1EA499BF2\ws2_32.pdb	20	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:39	71A20000-71A37000	[5808] Server.exe: Native	
+	ws2help.dll	C:\WINDOWS\system32\ws2help.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\ws2help.pdb\537CE830EFE94FE3A92C95153BDB71462\ws2help.pdb	21	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:39	71A10000-71A18000	[5808] Server.exe: Native	
+	winspool.drv	C:\WINDOWS\system32\winspool.drv	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\winspool.pdb\97A6ECC94EA7450CA7D375BD9DFFCA5E2\winspool.pdb	22	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	72F70000-72F96000	[5808] Server.exe: Native	
+	winmm.dll	C:\WINDOWS\system32\winmm.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\winmm.pdb\4FC9F179964745CAA3C78D6FADFC28322\winmm.pdb	23	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:39	76B10000-76B3A000	[5808] Server.exe: Native	
+	odbc32.dll	C:\WINDOWS\system32\odbc32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\odbc32.pdb\A2C802363EEC44BB8C62EAF84D7D1B8A2\odbc32.pdb	24	3.525.1117.0 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:39	73540000-7357D000	[5808] Server.exe: Native	
+	ServerUIFacade.dll	I:\SCSNT\bin_server\ServerUIFacade.dll	N/A	N/A	Binary was not built with debug information.		25	0, 0, 6, 1	22/08/2008 10:01	007F0000-008C7000*	[5808] Server.exe: Native	
+	psapi.dll	C:\WINDOWS\system32\psapi.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\psapi.pdb\A5C3A1F9689F43D8AD228A09293889702\psapi.pdb	26	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	76BC0000-76BCB000	[5808] Server.exe: Native	
+	nss_dll.dll	I:\SCSNT\bin_server\nss_dll.dll	N/A	N/A	Symbols not loaded.		27	1, 0, 0, 1	21/07/2008 14:25	008D0000-0097F000*	[5808] Server.exe: Native	
+	mswsock.dll	C:\WINDOWS\system32\mswsock.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\mswsock.pdb\A5FB8BE5B6A946489A1695AB9761ACF22\mswsock.pdb	28	5.1.2600.3394 (xpsp_sp2_gdr.080620-1245)	21/06/2008 01:39	719C0000-719FE000	[5808] Server.exe: Native	
+	wsock32.dll	C:\WINDOWS\system32\wsock32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\wsock32.pdb\E7B6C17E43604822813D3B65499B6C0F2\wsock32.pdb	29	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:39	71A40000-71A4B000	[5808] Server.exe: Native	
+	imm32.dll	C:\WINDOWS\system32\imm32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\imm32.pdb\2C17A49C251B4C8EB9E2AD13D7D9EA162\imm32.pdb	30	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	76300000-7631D000	[5808] Server.exe: Native	
+	lpk.dll	C:\WINDOWS\system32\lpk.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\lpk.pdb\C8E0E10EECAB4E90A1D1E442AF0AD0001\lpk.pdb	31	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:37	62C20000-62C29000	[5808] Server.exe: Native	
+	usp10.dll	C:\WINDOWS\system32\usp10.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\usp10.pdb\14C8D7F8AB3C48A4B95A73BAC9A6B02C1\usp10.pdb	32	1.0420.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	73FA0000-7400B000	[5808] Server.exe: Native	
+	odbcint.dll	C:\WINDOWS\system32\odbcint.dll	N/A	N/A	Binary was not built with debug information.		33	3.525.1117.0 built by: (_sqlbld)	17/08/2004 07:39	20000000-20017000	[5808] Server.exe: Native	
+	uxtheme.dll	C:\WINDOWS\system32\uxtheme.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\uxtheme.pdb\B982B8FE390B4359AD3CCECC16C0D59F2\uxtheme.pdb	34	6.00.2900.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	5ADC0000-5ADF7000	[5808] Server.exe: Native	
+	msctf.dll	C:\WINDOWS\system32\msctf.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\msctf.pdb\704675D11FFA4430A69DC51DD91E39C22\msctf.pdb	35	5.1.2600.3319 (xpsp_sp2_qfe.080222-1435)	26/02/2008 19:49	74680000-746CC000	[5808] Server.exe: Native	
+	safemon.dll	C:\Program Files\360safe\safemon\safemon.dll	N/A	N/A	Binary was not built with debug information.		36	4, 2, 0, 1005	10/07/2008 17:37	016A0000-016C9000*	[5808] Server.exe: Native	
+	MSCTFIME.IME	C:\WINDOWS\system32\MSCTFIME.IME	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\msctfime.pdb\ECE04C0393764AD0B3E9658C0D8BA88D1\msctfime.pdb	37	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:39	73640000-7366E000	[5808] Server.exe: Native	
+	netapi32.dll	C:\WINDOWS\system32\netapi32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\netapi32.pdb\2F9CD2C174C847FB93E47CF88087B0132\netapi32.pdb	38	5.1.2600.2976 (xpsp_sp2_gdr.060817-0106)	17/08/2006 20:29	5FDD0000-5FE24000	[5808] Server.exe: Native	
+	hnetcfg.dll	C:\WINDOWS\system32\hnetcfg.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\HNetCfg.pdb\F662D314F374499784BC0592B8DB8BEF1\HNetCfg.pdb	39	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:37	60FD0000-61025000	[5808] Server.exe: Native	
+	wshtcpip.dll	C:\WINDOWS\system32\wshtcpip.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\wshtcpip.pdb\DE010D61873545F49D43D91367E871DC2\wshtcpip.pdb	40	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:39	71A00000-71A08000	[5808] Server.exe: Native	
+	odbccp32.dll	C:\WINDOWS\system32\odbccp32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\ODBCCP32.pdb\9423208BAEA04558AB262FCD7C1D5DDC1\ODBCCP32.pdb	41	3.525.1117.0 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:39	4D3D0000-4D3EB000	[5808] Server.exe: Native	
+	odbcjt32.dll	C:\WINDOWS\system32\odbcjt32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\odbcjt32.pdb\40dcab4b1\odbcjt32.pdb	42	4.00.6304.0	17/08/2004 07:39	4AAC0000-4AB04000	[5808] Server.exe: Native	
+	msjet40.dll	C:\WINDOWS\system32\msjet40.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\msjet40.pdb\47151b001\msjet40.pdb	43	4.00.9511.0	16/10/2007 23:46	1B000000-1B170000	[5808] Server.exe: Native	
+	mswstr10.dll	C:\WINDOWS\system32\mswstr10.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\mswstr10.pdb\44859b1f1\mswstr10.pdb	44	4.00.9502.0	06/06/2006 23:02	1B5D0000-1B665000	[5808] Server.exe: Native	
+	odbcji32.dll	C:\WINDOWS\system32\odbcji32.dll	N/A	N/A	Cannot find or open a required DBG file.		45	4.00.6304.0	17/08/2004 07:39	4B4E0000-4B4EE000	[5808] Server.exe: Native	
+	msjter40.dll	C:\WINDOWS\system32\msjter40.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\msjter40.pdb\44859b1a1\msjter40.pdb	46	4.00.9502.0	06/06/2006 23:02	1B2C0000-1B2CD000	[5808] Server.exe: Native	
+	msjint40.dll	C:\WINDOWS\system32\msjint40.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\msjint40.pdb\44859b191\msjint40.pdb	47	4.00.9502.0	06/06/2006 23:02	1B2D0000-1B2F6000	[5808] Server.exe: Native	
+	clbcatq.dll	C:\WINDOWS\system32\clbcatq.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\clbcatq.pdb\58D394694EFA45DE961F5C692B3211BC2\clbcatq.pdb	48	2001.12.4414.308	26/07/2005 12:39	76FA0000-7701F000	[5808] Server.exe: Native	
+	comres.dll	C:\WINDOWS\system32\comres.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\COMRes.pdb\D81244C41029461FAABC731CFDDF0AE08\COMRes.pdb	49	2001.12.4414.258	17/08/2004 07:38	77020000-770BA000	[5808] Server.exe: Native	
+	msjtes40.dll	C:\WINDOWS\system32\msjtes40.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\MSJTES40.pdb\44859b1a1\MSJTES40.pdb	50	4.00.9502.0	06/06/2006 23:02	1B800000-1B83A000	[5808] Server.exe: Native	
+	vbajet32.dll	C:\WINDOWS\system32\vbajet32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\vbajet32.pdb\3e6559df1\vbajet32.pdb	51	6.00.1.9431	26/02/2002 04:50	0F9A0000-0F9AB000	[5808] Server.exe: Native	
+	expsrv.dll	C:\WINDOWS\system32\expsrv.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\expsrv.pdb\3e655b3d1\expsrv.pdb	52	6.00.72.9589	09/05/2002 04:17	0F9C0000-0FA22000	[5808] Server.exe: Native	
+	dnsapi.dll	C:\WINDOWS\system32\dnsapi.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\dnsapi.pdb\81D9581280A440AC9B396FA191F0BA1C2\dnsapi.pdb	53	5.1.2600.3394 (xpsp_sp2_gdr.080620-1245)	21/06/2008 01:39	76EF0000-76F17000	[5808] Server.exe: Native	
+	winrnr.dll	C:\WINDOWS\system32\winrnr.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\winrnr.pdb\A5953730A3504120BCEB95B11D0D3B972\winrnr.pdb	54	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	76F80000-76F88000	[5808] Server.exe: Native	
+	wldap32.dll	C:\WINDOWS\system32\wldap32.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\wldap32.pdb\025E111A192144B0A76E5D156BA8A6A52\wldap32.pdb	55	5.1.2600.2180 (xpsp_sp2_rtm.040803-2158)	17/08/2004 07:38	76F30000-76F5C000	[5808] Server.exe: Native	
+	rasadhlp.dll	C:\WINDOWS\system32\rasadhlp.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\rasadhlp.pdb\3F6D3BE4BC9D4F6F8D48E1B71B419BDB2\rasadhlp.pdb	56	5.1.2600.2938 (xpsp_sp2_gdr.060626-0020)	27/06/2006 01:41	76F90000-76F96000	[5808] Server.exe: Native	
+	scrrun.dll	C:\WINDOWS\system32\scrrun.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\scrrun.pdb\CD9A5900F13D455EA381E1D3B8EB3DF91\scrrun.pdb	57	5.06.0.8820	17/08/2004 07:38	73510000-73535000	[5808] Server.exe: Native	
+	mfc42.dll	C:\WINDOWS\system32\mfc42.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\MFC42.pdb\78506869754E46FABF6059C8004810DFe\MFC42.pdb	58	6.02.4131.0	17/08/2004 07:37	73D30000-73E2E000	[5808] Server.exe: Native	
+	mfc42loc.dll	C:\WINDOWS\system32\mfc42loc.dll	N/A	N/A	Binary was not built with debug information.		59	6.00.8665.0	01/09/2001 07:01	61BE0000-61BED000	[5808] Server.exe: Native	
+	sxs.dll	C:\WINDOWS\system32\sxs.dll	N/A	N/A	Symbols loaded (source information stripped).	C:\Symbols\sxs.pdb\6156DC5B95A349C99EE37FAFF5DD101D2\sxs.pdb	60	5.1.2600.3019 (xpsp_sp2_gdr.061019-0414)	20/10/2006 09:37	75E00000-75EAE000	[5808] Server.exe: Native	

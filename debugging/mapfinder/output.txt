@@ -1,0 +1,121 @@
+>	ntdll.dll!_KiFastSystemCallRet@0()
+ntdll.dll!_ZwWaitForSingleObject@12()  + 0xc bytes
+kernel32.dll!_WaitForSingleObjectEx@12()  + 0x8b bytes
+kernel32.dll!_WaitForSingleObject@8()  + 0x12 bytes
+ServerUIFacade.dll!?Lock@CSyncObject@@UAEHK@Z() mtcore.cpp(44) 1:578782
+[Frames below may be incorrect and/or missing, no symbols loaded for ServerUIFacade.dll]
+ServerUIFacade.dll!?lock@CBaseLock@@QAEXXZ() D:\luntbuild-1.5.6\work\core\SCS\code\app\common\BaseLock.cpp(37) 1:554752
+ServerUIFacade.dll!??0CBaseLockGuard@@QAE@AAVCBaseLock@@@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\common\BaseLock.cpp(50) 1:554784
+ServerUIFacade.dll!?setGamesStateNow@CGameState@@QAE_NABV?$vector@USGameInfo@@V?$allocator@USGameInfo@@@std@@@std@@ABV?$vector@USGameStateGet@@V?$allocator@USGameStateGet@@@std@@@3@@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\GameState.cpp(224) 1:114176
+ServerUIFacade.dll!__heap_alloc() F:\9782\vc98\mfc\mfc\include\afx.inl(77) 1:40812
+ServerUIFacade.dll!?_Construct@std@@YAXPAUSGameStateGet@@ABU2@@Z() C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\xmemory(34) 1:145584
+ServerUIFacade.dll!?setGameStateWant@CGameState@@QAEJAAUSGameOperWant@@ABV?$vector@USGameInfo@@V?$allocator@USGameInfo@@@std@@@std@@@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\GameState.cpp(162) 1:112624
+ServerUIFacade.dll!?updateGame@CServerFacade@@QAEJHH@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerUIFacade\ServerFacade.cpp(186) 1:4992
+ServerUIFacade.dll!_updateGame@8() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerUIFacade\ServerFacade_For_C.cpp(175) 1:33040
+Server.exe!TGame.UpdateGame() pas\UClassDefine.pas(1410) 1:830876
+Server.exe!TFrmServerMain.TimerAutoUpdateTimer() pas\UServerMain.pas(3812) 1:1472556
+Server.exe!TTimer.Timer() D:\\luntbuild-1.5.6\\work\\delphi\scs\code\delphicode\gameupdateserver\server.dpr(131) 1:226592
+Server.exe!TTimer.WndProc() D:\\luntbuild-1.5.6\\work\\delphi\scs\code\delphicode\gameupdateserver\server.dpr(131) 1:226280
+Server.exe!StdWndProc() D:\\luntbuild-1.5.6\\work\\delphi\scs\code\delphicode\gameupdateserver\server.dpr(131) 1:148380
+user32.dll!_InternalCallWinProc@20()  + 0x28 bytes
+user32.dll!_UserCallWinProcCheckWow@32()  + 0xb7 bytes
+user32.dll!_DispatchMessageWorker@8()  + 0xdc bytes
+user32.dll!_DispatchMessageA@4()  + 0xf bytes
+Server.exe!TApplication.ProcessMessage() D:\\luntbuild-1.5.6\\work\\delphi\scs\code\delphicode\gameupdateserver\server.dpr(131) 1:565688
+Server.exe!TApplication.HandleMessage() D:\\luntbuild-1.5.6\\work\\delphi\scs\code\delphicode\gameupdateserver\server.dpr(131) 1:565864
+Server.exe!TApplication.Run() D:\\luntbuild-1.5.6\\work\\delphi\scs\code\delphicode\gameupdateserver\server.dpr(131) 1:566268
+Server.exe!Server() D:\\luntbuild-1.5.6\\work\\delphi\scs\code\delphicode\gameupdateserver\server.dpr(123) 1:1481304
+ntdll.dll!_ZwSetInformationThread@16()  + 0xc bytes
+kernel32.dll!_BaseProcessStart@4()  + 0x23 bytes
+ffffffff()
+
+
+>	ntdll.dll!_KiFastSystemCallRet@0()
+ntdll.dll!_NtOpenFile@24()  + 0xc bytes
+kernel32.dll!_SetFileAttributesW@8()  + 0x7d bytes
+kernel32.dll!_SetFileAttributesA@8()  + 0x1c bytes
+scs_transpro_dll.dll!?open_sub_file_i@Csub_file@@AAEHH_N@Z() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\sub_file.cpp(337) 1:762016
+[Frames below may be incorrect and/or missing, no symbols loaded for scs_transpro_dll.dll]
+scs_transpro_dll.dll!?read_sub_file@Csub_file@@QAEH_JPAXH_N@Z() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\sub_file.cpp(140) 1:760032
+scs_transpro_dll.dll!?read_data_unlock_i@Cbt_file@@AAEH_JPADH_N@Z() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\bt_file.cpp(1600) 1:663760
+scs_transpro_dll.dll!?read_data@Cbt_file@@QAEH_JPADH_N@Z() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\bt_file.cpp(1576) 1:663680
+scs_transpro_dll.dll!?run@Cbt_hasher@@QAE_NXZ() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\bt_hasher.cpp(52) 1:758400
+scs_transpro_dll.dll!?hash@Cbt_file@@QAE_NXZ() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\bt_file.cpp(432) 1:649264
+scs_transpro_dll.dll!?asynch_hash_file_i@Cserver@@AAEXPAX@Z() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\server.cpp(496) 1:597056
+scs_transpro_dll.dll!?execute@?$CFunctorCommand@VCbt_file@@P81@AEXPAX@Z@@EAEXXZ() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\../../scs_transpro_dll/scs_functor_command.h(57) 1:605568
+scs_transpro_dll.dll!?svc@CFunctorCommandTask@@EAEXXZ() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\scs_transpro_dll\scs_functor_command_task.cpp(209) 1:94480
+scs_transpro_dll.dll!?svcRun@CThreadBase@@CGIPAX@Z() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\scs_transpro_dll\scs_thread.cpp(80) 1:186544
+scs_transpro_dll.dll!__beginthreadex() F:\9782\vc98\mfc\mfc\include\afx.inl(77) 1:298417
+scs_transpro_dll.dll!__beginthreadex() F:\9782\vc98\mfc\mfc\include\afx.inl(77) 1:298417
+kernel32.dll!_BaseThreadStart@8()  + 0x37 bytes
+
+
+>	ntdll.dll!_KiFastSystemCallRet@0()
+user32.dll!_NtUserGetMessage@16()  + 0xc bytes
+scs_transpro_dll.dll!?PumpMessage@CWinThread@@UAEHXZ() thrdcore.cpp(821) 1:876033
+[Frames below may be incorrect and/or missing, no symbols loaded for scs_transpro_dll.dll]
+scs_transpro_dll.dll!?RunModalLoop@CWnd@@QAEHK@Z() wincore.cpp(3489) 1:888463
+scs_transpro_dll.dll!?DoModal@CDialog@@UAEHXZ() dlgcore.cpp(543) 1:872998
+scs_transpro_dll.dll!?runDlg_i@CXbtFacade@@AAEXPAX@Z() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\scs_transpro_dll\scs_bt_facade.cpp(144) 1:55248
+user32.dll!_DefDlgProcA@16()
+ffffffff()
+scs_transpro_dll.dll!?execute@?$CFunctorCommand@VCbt_file@@P81@AEXPAX@Z@@EAEXXZ() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\../../scs_transpro_dll/scs_functor_command.h(57) 1:605568
+scs_transpro_dll.dll!?svc@CFunctorCommandTask@@EAEXXZ() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\scs_transpro_dll\scs_functor_command_task.cpp(209) 1:94480
+scs_transpro_dll.dll!?svcRun@CThreadBase@@CGIPAX@Z() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\scs_transpro_dll\scs_thread.cpp(80) 1:186544
+scs_transpro_dll.dll!__beginthreadex() F:\9782\vc98\mfc\mfc\include\afx.inl(77) 1:298417
+scs_transpro_dll.dll!__beginthreadex() F:\9782\vc98\mfc\mfc\include\afx.inl(77) 1:298417
+kernel32.dll!_BaseThreadStart@8()  + 0x37 bytes
+
+
+scs_transpro_dll.dll!?post_select@Cserver@@QAEXPAUfd_set@@00_N@Z() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\server.cpp(783) 1:599200
+[Frames below may be incorrect and/or missing, no symbols loaded for scs_transpro_dll.dll]
+scs_transpro_dll.dll!?run@Cserver@@QAEXXZ() D:\luntbuild-1.5.6\work\transport\SCS\code\scs_transport\xbt\BT Test\server.cpp(701) 1:597488
+
+
+>	ntdll.dll!_KiFastSystemCallRet@0()
+ntdll.dll!_NtDelayExecution@8()  + 0xc bytes
+kernel32.dll!_SleepEx@8()  + 0x51 bytes
+kernel32.dll!_Sleep@4()  + 0xf bytes
+ServerUIFacade.dll!?Run@CIdcGameThread@@EAEKPAX@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\IdcGameThread.cpp(192) 1:321392
+[Frames below may be incorrect and/or missing, no symbols loaded for ServerUIFacade.dll]
+ServerUIFacade.dll!?EntryPoint@CThread@@KGKPAX@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\../../common/thread.h(119) 1:291856
+kernel32.dll!_BaseThreadStart@8()  + 0x37 bytes
+
+>	ntdll.dll!_KiFastSystemCallRet@0()
+ntdll.dll!_ZwWaitForSingleObject@12()  + 0xc bytes
+kernel32.dll!_WaitForSingleObjectEx@12()  + 0x8b bytes
+kernel32.dll!_WaitForSingleObject@8()  + 0x12 bytes
+ServerUIFacade.dll!?Lock@CSyncObject@@UAEHK@Z() mtcore.cpp(44) 1:578782
+[Frames below may be incorrect and/or missing, no symbols loaded for ServerUIFacade.dll]
+ServerUIFacade.dll!?lock@CBaseLock@@QAEXXZ() D:\luntbuild-1.5.6\work\core\SCS\code\app\common\BaseLock.cpp(37) 1:554752
+ServerUIFacade.dll!??0CBaseLockGuard@@QAE@AAVCBaseLock@@@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\common\BaseLock.cpp(50) 1:554784
+ServerUIFacade.dll!?isValidState@CGameState@@IAE_NABUSGameStateGet@@@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\GameState.cpp(1008) 1:132784
+ServerUIFacade.dll!?setGamesStateNow@CGameState@@QAE_NABV?$vector@USGameInfo@@V?$allocator@USGameInfo@@@std@@@std@@ABV?$vector@USGameStateGet@@V?$allocator@USGameStateGet@@@std@@@3@@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\GameState.cpp(238) 1:114176
+ServerUIFacade.dll!?setGameStateUI@CDispatchThread@@AAE_NUSGameStateGet@@@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\DispatchThread.cpp(768) 1:309440
+ServerUIFacade.dll!?setBtDownReport@CDispatchThread@@AAEXXZ() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\DispatchThread.cpp(411) 1:298704
+ServerUIFacade.dll!?Run@CDispatchThread@@EAEKPAX@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\DispatchThread.cpp(259) 1:293024
+nss_dll.dll!009117aa()
+ntdll.dll!_NtContinue@8()  + 0xc bytes
+ntdll.dll!_KiUserApcDispatcher@20()  + 0xf bytes
+ffff9090()
+
+>   ntdll.dll!_KiFastSystemCallRet@0()
+ntdll.dll!_NtDelayExecution@8()  + 0xc bytes
+kernel32.dll!_SleepEx@8()  + 0x51 bytes
+kernel32.dll!_Sleep@4()  + 0xf bytes
+ServerUIFacade.dll!?Run@CIdcGameThread@@EAEKPAX@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\IdcGameThread.cpp(192) 1:321392
+[Frames below may be incorrect and/or missing, no symbols loaded for ServerUIFacade.dll]
+ServerUIFacade.dll!?EntryPoint@CThread@@KGKPAX@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\../../common/thread.h(119) 1:291856
+kernel32.dll!_BaseThreadStart@8()  + 0x37 bytes
+
+>   ntdll.dll!_KiFastSystemCallRet@0()
+ntdll.dll!_NtDelayExecution@8()  + 0xc bytes
+kernel32.dll!_SleepEx@8()  + 0x51 bytes
+kernel32.dll!_Sleep@4()  + 0xf bytes
+ServerUIFacade.dll!?Run@CTraceThread@@UAEKPAX@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\TraceThread.cpp(65) 1:291328
+[Frames below may be incorrect and/or missing, no symbols loaded for ServerUIFacade.dll]
+ServerUIFacade.dll!?EntryPoint@CThread@@KGKPAX@Z() D:\luntbuild-1.5.6\work\core\SCS\code\app\server\ServerCore\../../common/thread.h(119) 1:291856
+kernel32.dll!_BaseThreadStart@8()  + 0x37 bytes
+
+
+

@@ -97,6 +97,55 @@ class DjangoHbmParser(HbmParser):
             result += "\t\tdb_table = '%s'\n\n" % self.table_name  
             
         return result
+
+def tableName(id):
+    return id.split(".")[0]
+
+def tableNameL(name):    # remove id
+    return name[0].lower() + name[1:-2]
+
+fk_map = {'AdminId': 'Users.Id',
+ 'AgentId': 'Agent.Id',
+ 'AgentManagerId': 'Users.Id',
+ 'CategoryId': 'categories.Id',
+ 'ChannelId': 'Channel.Id',
+ 'ChargeEventId': 'ChargeEvents.Id',
+ 'ChargeId': 'Agent_DIM_ChargeType.ChargeId',
+ 'CheckUserId': 'Users.Id',
+ 'CityId': 'Cities.Id',
+ 'CompanyId': 'companies.Id',
+ 'CompanyTypeId': 'DIM_CommonType.TypeID',
+ 'ContactsId': 'Users.Id',
+ 'CouponId': 'Coupon.Id',
+ 'CreationAdminId': 'Users.Id',
+ 'CustomerId': 'Customer.Id',
+ 'DispNumberChargeEventID': 'ChargeEvents.Id',
+ 'DownloadUserId': 'Users.Id',
+ 'IncentiveID': 'Incentives.Id',
+ 'JcnUserId': 'JcnUsers.Id',
+ 'LastAdminId': 'Users.Id',
+ 'LastModifyAdminId': 'Users.Id',
+ 'LeadChargeEventId': 'ChargeEvents.Id',
+ 'LinksEventId': 'Seo_LinksEvents.Id',
+ 'ManageUserId': 'Users.Id',
+ 'MenuId': 'VIPMenu.Id',
+ 'MessageId': 'MSG_Message.Id',
+ 'OperId': 'Users.Id',
+ 'PerMenuId': 'Per_Menu.Id',
+ 'PermissionId': 'Permission.Id',
+ 'Phone400TailId': 'Phone400Tail.Id',
+ 'ProductGroupId': 'ProductGroup.Id',
+ 'ProductId': 'products.Id',
+ 'QueryExpressionGroupId': 'QueryExpressionGroup.Id',
+ 'ReporterId': 'Users.Id',
+ 'RoleId': 'Role.Id',
+ 'RuleId': 'Seo_Rule.Id',
+ 'StableId': 'companyinfos.Id',
+ 'StatusId': 'MSG_Status.Id',
+ 'SubmitUserId': 'Users.Id',
+ 'TalkChargeEventId': 'ChargeEvents.Id',
+ 'TemplateId': 'Template.Id',
+ 'UserId': 'Users.Id'}
     
 class SQLAlchemyHbmParser(HbmParser):        
     def __init__(self, root_node):
@@ -132,6 +181,7 @@ class SQLAlchemyHbmParser(HbmParser):
         #result += "Base = declarative_base()\n\n"
         result = ""
         if self.name is not None:
+            rels = []
             result += "class %s(Base):\n" % self.table_name
             result += "\t__tablename__ = '%s'\n\n" % self.table_name
             result += "\t%s = Column(Integer, primary_key=True)\n" % self.id
@@ -139,8 +189,14 @@ class SQLAlchemyHbmParser(HbmParser):
                 para = ""
                 if length:
                     para = "(%s)" % length
+                elif name in fk_map:
+                    para = ", ForeignKey('%s')" % fk_map[name]
+                    rels.append("\t%s = relation(%s)" % (tableNameL(name), tableName(fk_map[name])))
                 result += "\t%s = Column(%s%s)\n" % (name, type, para)
-        result += "\n\n"
+            if rels:
+                result += "\n"
+            result += "\n".join(rels)
+        result += "\n"
         return result
 
 if __name__ == "__main__":

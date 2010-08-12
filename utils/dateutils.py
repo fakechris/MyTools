@@ -2,7 +2,7 @@ import datetime, time
 
 def datetime2time(dt):
     return time.mktime(dt.timetuple())
-	
+    
 def time2datetime(t):
     return datetime.datetime.fromtimestamp(t)
 
@@ -20,7 +20,7 @@ def date_range(start, end):
         yield itday, tmpday - datetime.timedelta(1)
         itday = tmpday
 
-		def today0():
+        def today0():
     today = datetime.date.today()
     today0 = datetime.datetime(today.year, today.month, today.day, 0, 0, 0)
     return today0
@@ -92,4 +92,4 @@ def detailDateRange(year, month, day):
     prevday = datetime.date(yesterday.year, yesterday.month, yesterday.day)
     return today, today_midnight, prevday, nextday
 
-	
+    
